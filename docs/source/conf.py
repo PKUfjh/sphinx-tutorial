@@ -1,6 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import pathlib
+import sys
+sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 
 project = 'Lumache'
 copyright = '2021, Graziella'
